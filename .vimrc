@@ -1,14 +1,11 @@
-syntax on
-set tabstop=4
-set shiftwidth=4
-set expandtab
-filetype indent on
-filetype on
-filetype plugin on
-set hls
-set ignorecase
-colorscheme darkblue
-colorscheme koehler
-colorscheme default
-set incsearch
+syntax on               " syntax highlighting
+set tabstop=4           " PEP-8 uses 4 spaces per indentation level
+set shiftwidth=4        " shifting (PEP-8)
+set expandtab           " spaces instead of tabs (PEP-8, and just bettter in general)
+filetype on             " file type detection
+filetype indent on      " special indentation rules for file type
+filetype plugin on      " auto-completion rules for file type
+set hls                 " highlight search terms (:noh to turn off temporarily)
+set ignorecase          " ignore case for searches (:set noignorecase to turn off)
+set incsearch           " search as you type
 
