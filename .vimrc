@@ -9,4 +9,5 @@ set hls                 " highlight search terms (:noh to turn off temporarily)
 set ignorecase          " ignore case for searches (:set noignorecase to turn off)
 set incsearch           " search as you type
 colorscheme darkblue    " slightly nicer colour scheme
+set scrolloff=15        " keep 15 lines of context on both sides of cursor when scrolling
 
