@@ -1,5 +1,5 @@
 #!/bin/bash
 
-git clone git@github.com:paulgb/settings.git ~/.settings
+git clone https://github.com/paulgb/settings.git
 bash ~/.settings/install.sh
 
