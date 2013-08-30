@@ -27,7 +27,7 @@ function prompt {
   local WHITE="\[\033[0;37m\]"
   local WHITEBOLD="\[\033[1;37m\]"
   local OFF="\[\033[00m\]"
-  export PS1="$REDBOLD\u$OFF@$GREENBOLD\h$OFF:$BLUEBOLD\w$OFF\\$ "
+  export PS1="$OFF$REDBOLD\u$OFF@$GREENBOLD\h$OFF:$BLUEBOLD\w$OFF\\$ "
 }
 prompt
 unset prompt
