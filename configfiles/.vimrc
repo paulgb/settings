@@ -11,6 +11,20 @@ set ignorecase          " ignore case for searches (:set noignorecase to turn of
 set incsearch           " search as you type
 colorscheme darkblue    " slightly nicer colour scheme
 set scrolloff=10        " keep 15 lines of context on both sides of cursor when scrolling
+set laststatus=2        " always display the status line
+set shortmess=I         " disable startup screen
 
+
+" Navigation key bindings for insert mode
+map [A <up>
+map [B <down>
+map [C <right>
+map [D <left>
+
+" filename and line numbering in status line
+set statusline=%f%m%r%h%w\ 
+set statusline+=\ %l\/%L          
+
+" vim markdown defaults to folding things into headers which I don't like
 let g:vim_markdown_folding_disabled=1
 

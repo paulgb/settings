@@ -1,11 +1,10 @@
 
-startup_message off
+startup_message off         # don't show startup message
 
-vbell off
+vbell off                   # don't flash the screen as a warning bell
 
-hardstatus alwayslastline
-
+hardstatus alwayslastline   # show the status line always
 hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
 
-altscreen on
+altscreen on                # create a new buffer for ncurses apps like vim and less
 
