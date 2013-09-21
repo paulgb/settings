@@ -18,4 +18,4 @@ Requirements
 Cloning
 -------
 
-Feel free to fork this for your own settings, just make sure to change the git repo URL in `install.sh`.
+Feel free to fork this for your own settings, just make sure to change the git repo URL in `remote_install.sh`.
