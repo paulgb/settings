@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git clone https://github.com/paulgb/settings.git ~/.settings
+git clone git@github.com:paulgb/sklearn-pandas.git ~/.settings
 cd ~/.settings/
 bash ~/.settings/install.sh
 
