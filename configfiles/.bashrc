@@ -32,3 +32,10 @@ function prompt {
 prompt
 unset prompt
 
+export PATH=~/usr/bin:$PATH
+export LD_LIBRARY_PATH=~/usr/lib
+export PKG_CONFIG_PATH=~/usr/lib/pkgconfig
+
+set -o vi
+bind -m vi-insert "\C-l":clear-screen # make ctrl+l work as usual
+
