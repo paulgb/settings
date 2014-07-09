@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/paulbutler/usr/gohome/src/github.com/discoproject/goworker/jobpack'
-let g:netrw_dirhist_2='/home/paulbutler/usr/gohome/src/github.com/discoproject/goworker'
-let g:netrw_dirhist_3='/home/paulbutler/usr/gohome/src/github.com/discoproject/goworker/jobutil'
-let g:netrw_dirhist_4='/home/paulbutler/projects/ds-bookmaker/bookmaker/pipeline'
-let g:netrw_dirhist_5='/home/paulbutler/projects/ds-bookmaker/bookmaker'
-let g:netrw_dirhist_6='/home/paulbutler/projects/ds-bookmaker/bookmaker/config'
-let g:netrw_dirhist_7='/home/paulbutler/projects/ds-bookmaker/bookmaker/pipeline'
